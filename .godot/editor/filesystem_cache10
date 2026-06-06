@@ -1,0 +1,17 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1780749115
+icon.svg::CompressedTexture2D::8585027759689963144::1780664438::1780664450::1::::<><><>0<>0<>faf89a0fb61cc403d553bc0486a3805e<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.md::TextFile::-1::1780664438::0::1::::<><><>0<>0<><>::
+::res://Cenas/::1780691722
+jogo.tscn::PackedScene::1754452188950555003::1780691719::0::1::::<><><>0<>0<><>::uid://uvte8p5mbjrr::::res://Recursos/background.png<>uid://c38cfkiymrda0::::res://scripts/jogo.gd<>uid://cospxqfygtrlf::::res://Recursos/foreground.png<>uid://cu616vf3iljwr::::res://Recursos/middleground2.png<>uid://dmro7xhisp4p4::::res://Recursos/middleground1.png<>uid://u0x1dhlfqsh::::res://Recursos/player.png
+menu.tscn::PackedScene::1426947568721021315::1780691722::0::1::::<><><>0<>0<><>::uid://cjhr7itsnqr7e::::res://scripts/menu.gd<>uid://uvte8p5mbjrr::::res://Recursos/background.png<>uid://cfwhwjr2c677l::::res://Recursos/PressStart2P-Regular.ttf
+::res://Recursos/::1780691479
+background.png::CompressedTexture2D::1448291329455855423::1780664438::1780664450::1::::<><><>0<>0<>2aa94980e00d94f1b79b32186685dbd6<>res://.godot/imported/background.png-ecc7f1e26721d295e3b9daaf5045d893.ctex::
+foreground.png::CompressedTexture2D::5793596655239900407::1780665734::1780665734::1::::<><><>0<>0<>483efb824108c8941f180b188625f8b5<>res://.godot/imported/foreground.png-d30e92ad816f0b6fb3a3fe70af662b57.ctex::
+middleground1.png::CompressedTexture2D::8037530999097240423::1780689875::1780689876::1::::<><><>0<>0<>79a595b510eedb22ffdee704ac81bd11<>res://.godot/imported/middleground1.png-12438e0812a2301f1b4ef65bf7fdc59c.ctex::
+middleground2.png::CompressedTexture2D::6242249063943383865::1780689880::1780689880::1::::<><><>0<>0<>33f7c0b22883330143710a554f89d9a1<>res://.godot/imported/middleground2.png-b07568e6786d8aa3ee7281cb724af3a0.ctex::
+player.png::CompressedTexture2D::42847923734650019::1780691479::1780691479::1::::<><><>0<>0<>ca261310f09e499f3800c5d534e85c61<>res://.godot/imported/player.png-5b7efe831af1b7d9afa340b16c73f56e.ctex::
+PressStart2P-Regular.ttf::FontFile::5169666702783464067::1780664438::1780664450::1::::<><><>0<>0<>d949ad7d806818c1d9eb04f9829f1570<>res://.godot/imported/PressStart2P-Regular.ttf-b119590257c1b5863cd04959225d0f1f.fontdata::
+::res://scripts/::1780691193
+jogo.gd::GDScript::6806384356789233517::1780691193::0::1::::<>Node2D<><>0<>0<><>::
+menu.gd::GDScript::5420081389062843224::1780664962::0::1::::<>Control<><>0<>0<><>::
