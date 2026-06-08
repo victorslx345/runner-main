@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://dmro7xhisp4p4" path="res://Recursos/middleground1.png" id="4_reiul"]
 [ext_resource type="Texture2D" uid="uid://u0x1dhlfqsh" path="res://Recursos/player.png" id="6_reiul"]
 [ext_resource type="Script" uid="uid://480qdmg68s6x" path="res://scripts/player.gd" id="6_xmmbr"]
+[ext_resource type="Script" uid="uid://cm1duiy4o61ff" path="res://scripts/gerador_obst.gd" id="8_p2wm8"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xmmbr"]
 size = Vector2(1168.5, 113)
@@ -146,3 +147,6 @@ animation = &"pulo"
 [node name="player_hitbox" type="CollisionShape2D" parent="player" unique_id=764103806]
 position = Vector2(248, 492)
 shape = SubResource("RectangleShape2D_p2wm8")
+
+[node name="gerador_obst" type="Node2D" parent="." unique_id=395566532]
+script = ExtResource("8_p2wm8")
