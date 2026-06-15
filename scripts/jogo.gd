@@ -7,6 +7,8 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
+	$status/vidas.text = 'Vidas: ' + str($player.vidas)
+	$status/pontos.text = 'Pontos: ' + str($player.pontos)
 	$fundo.position.x -= velocidade*delta*0.1
 	$fundo2.position.x -= velocidade*delta*0.1
 	if $fundo.position.x < -576:

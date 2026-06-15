@@ -10,9 +10,9 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	timer += delta
-	if timer >= 2:
+	if timer >= 4:
 		var obst=cena_obst.instantiate()
 		obst.position.x = 1240
-		obst.position.y = 510
+		obst.position.y = 505
 		add_child(obst)
 		timer = 0

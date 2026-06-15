@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://u0x1dhlfqsh" path="res://Recursos/player.png" id="6_reiul"]
 [ext_resource type="Script" uid="uid://480qdmg68s6x" path="res://scripts/player.gd" id="6_xmmbr"]
 [ext_resource type="Script" uid="uid://cm1duiy4o61ff" path="res://scripts/gerador_obst.gd" id="8_p2wm8"]
+[ext_resource type="Script" uid="uid://briukyk84jme2" path="res://scripts/gerador_item.gd" id="9_r4inx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xmmbr"]
 size = Vector2(1168.5, 113)
@@ -150,3 +151,16 @@ shape = SubResource("RectangleShape2D_p2wm8")
 
 [node name="gerador_obst" type="Node2D" parent="." unique_id=395566532]
 script = ExtResource("8_p2wm8")
+
+[node name="gerador_item" type="Node2D" parent="." unique_id=744121040]
+script = ExtResource("9_r4inx")
+
+[node name="status" type="HBoxContainer" parent="." unique_id=265610128]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="vidas" type="Label" parent="status" unique_id=1082922548]
+layout_mode = 2
+
+[node name="pontos" type="Label" parent="status" unique_id=1740006048]
+layout_mode = 2
