@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://dkh38d1ipuf2b"]
+
+[ext_resource type="Texture2D" uid="uid://b1kqfm6a3tvdl" path="res://Recursos/enemies.png" id="1_jja24"]
+[ext_resource type="Script" uid="uid://mlqeng7iuuj0" path="res://scripts/item.gd" id="1_xruxt"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xruxt"]
+atlas = ExtResource("1_jja24")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6f8qp"]
+atlas = ExtResource("1_jja24")
+region = Rect2(48, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4qapt"]
+atlas = ExtResource("1_jja24")
+region = Rect2(96, 0, 48, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3sswf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xruxt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6f8qp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4qapt")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jipqn"]
+size = Vector2(93.5, 50)
+
+[node name="item" type="Area2D" unique_id=1741711669]
+script = ExtResource("1_xruxt")
+
+[node name="iten_sprite" type="AnimatedSprite2D" parent="." unique_id=1520231810]
+texture_filter = 1
+scale = Vector2(3.6, 3.6)
+sprite_frames = SubResource("SpriteFrames_3sswf")
+autoplay = "default"
+frame_progress = 0.12502575
+
+[node name="item_hitbox" type="CollisionShape2D" parent="." unique_id=217902116]
+position = Vector2(-0.25, 0)
+shape = SubResource("RectangleShape2D_jipqn")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
