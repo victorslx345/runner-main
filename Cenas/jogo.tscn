@@ -1,14 +1,66 @@
 [gd_scene format=3 uid="uid://y84tolmk1usx"]
 
-[ext_resource type="Texture2D" uid="uid://uvte8p5mbjrr" path="res://Recursos/background.png" id="1_03mvh"]
 [ext_resource type="Script" uid="uid://c38cfkiymrda0" path="res://scripts/jogo.gd" id="1_45s2r"]
-[ext_resource type="Texture2D" uid="uid://cospxqfygtrlf" path="res://Recursos/foreground.png" id="2_45s2r"]
-[ext_resource type="Texture2D" uid="uid://cu616vf3iljwr" path="res://Recursos/middleground2.png" id="3_ovbra"]
-[ext_resource type="Texture2D" uid="uid://dmro7xhisp4p4" path="res://Recursos/middleground1.png" id="4_reiul"]
+[ext_resource type="Texture2D" uid="uid://bkpiycte82g1c" path="res://Recursos/black-screen_39.png" id="2_m6kt3"]
+[ext_resource type="Texture2D" uid="uid://dvsm36o4t7t2p" path="res://Recursos/spr_titan_fountain_loop/spr_titan_fountain_loop_0.png" id="3_1swbg"]
+[ext_resource type="Texture2D" uid="uid://dgpdc52bvlkbe" path="res://Recursos/PC _ Computer - Deltarune - Backgrounds - Giga Queen Cityscape.png" id="3_m6kt3"]
+[ext_resource type="Texture2D" uid="uid://7xlqyofntr5k" path="res://Recursos/spr_titan_fountain_loop/spr_titan_fountain_loop_1.png" id="4_uoep5"]
+[ext_resource type="Texture2D" uid="uid://iv0bhrd65xm5" path="res://Recursos/spr_titan_fountain_loop/spr_titan_fountain_loop_2.png" id="5_41rdl"]
+[ext_resource type="Texture2D" uid="uid://cnxhbk0plrji8" path="res://Recursos/spr_titan_fountain_loop/spr_titan_fountain_loop_3.png" id="6_gvcm3"]
 [ext_resource type="Texture2D" uid="uid://u0x1dhlfqsh" path="res://Recursos/player.png" id="6_reiul"]
 [ext_resource type="Script" uid="uid://480qdmg68s6x" path="res://scripts/player.gd" id="6_xmmbr"]
+[ext_resource type="Texture2D" uid="uid://dsnyoi58kmohw" path="res://Recursos/spr_titan_fountain_loop/spr_titan_fountain_loop_4.png" id="7_w23ar"]
+[ext_resource type="Texture2D" uid="uid://5wf0csxqyn6l" path="res://Recursos/sprite-22-1.png" id="8_m6kt3"]
 [ext_resource type="Script" uid="uid://cm1duiy4o61ff" path="res://scripts/gerador_obst.gd" id="8_p2wm8"]
+[ext_resource type="Texture2D" uid="uid://b3kulntl8x7k2" path="res://Recursos/spr_titan_fountain_loop/spr_titan_fountain_loop_5.png" id="8_r8p7e"]
+[ext_resource type="Texture2D" uid="uid://bl75q08g404p5" path="res://Recursos/sprite-22-2.png" id="9_5fnkj"]
+[ext_resource type="Texture2D" uid="uid://cme8dsp5j0a6g" path="res://Recursos/spr_titan_fountain_loop/spr_titan_fountain_loop_6.png" id="9_gmmmg"]
 [ext_resource type="Script" uid="uid://briukyk84jme2" path="res://scripts/gerador_item.gd" id="9_r4inx"]
+[ext_resource type="Texture2D" uid="uid://dfxoc02gxc2t5" path="res://Recursos/spr_titan_fountain_loop/spr_titan_fountain_loop_7.png" id="10_fj8k2"]
+[ext_resource type="Texture2D" uid="uid://clr6xkk0mnmc4" path="res://Recursos/sprite-22-3.png" id="10_vherq"]
+[ext_resource type="Texture2D" uid="uid://dt3q2tihvxxx7" path="res://Recursos/sprite-22-4.png" id="11_en3qn"]
+[ext_resource type="Texture2D" uid="uid://dp05g7ams2f8e" path="res://Recursos/PC _ Computer - Deltarune - Backgrounds - Cyber Field (2).png" id="11_uoep5"]
+[ext_resource type="Texture2D" uid="uid://bhk0j6rk1tjfg" path="res://Recursos/sprite-22-5.png" id="12_nmi6f"]
+[ext_resource type="Texture2D" uid="uid://biuw8hbagffyt" path="res://Recursos/PC _ Computer - Deltarune - Backgrounds - Cyber Field (3).png" id="13_1swbg"]
+[ext_resource type="Texture2D" uid="uid://knrxanakk5h6" path="res://Recursos/sprite-22-6.png" id="13_c4i2n"]
+[ext_resource type="Texture2D" uid="uid://duxv03sih5ul2" path="res://Recursos/sprite-106-3.png" id="14_ea3do"]
+[ext_resource type="Texture2D" uid="uid://6g7xh5nf5ygp" path="res://Recursos/sprite-106-4.png" id="15_gqmlc"]
+[ext_resource type="Texture2D" uid="uid://dsykf65gpxhhr" path="res://Recursos/sprite-106-10.png" id="16_1swbg"]
+[ext_resource type="Texture2D" uid="uid://c81pa83hvked6" path="res://Recursos/sprite-106-11.png" id="17_uoep5"]
+[ext_resource type="Texture2D" uid="uid://dn7nxmd1puw5e" path="res://Recursos/sprite-106-12.png" id="18_41rdl"]
+[ext_resource type="FontFile" uid="uid://ced5twfkjn2ej" path="res://Recursos/determination.ttf" id="29_uoep5"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ea472"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_1swbg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_uoep5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_41rdl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_gvcm3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_w23ar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_r8p7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_gmmmg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_fj8k2")
+}],
+"loop": true,
+"name": &"fonte_anim",
+"speed": 12.0
+}]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xmmbr"]
 size = Vector2(1168.5, 113)
@@ -68,6 +120,54 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": ExtResource("8_m6kt3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_5fnkj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_vherq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_en3qn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_nmi6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_c4i2n")
+}],
+"loop": true,
+"name": &"kris",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_ea3do")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_gqmlc")
+}],
+"loop": true,
+"name": &"kris_caindo",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_1swbg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_uoep5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_41rdl")
+}],
+"loop": true,
+"name": &"kris_pulo",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_3pkuu")
 }],
 "loop": true,
@@ -76,58 +176,66 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_p2wm8"]
-size = Vector2(58, 76)
+size = Vector2(76, 119)
 
 [node name="Jogo" type="Node2D" unique_id=1645555078]
 script = ExtResource("1_45s2r")
 
-[node name="fundo" type="Sprite2D" parent="." unique_id=1156219369]
+[node name="fundo_preto" type="Sprite2D" parent="." unique_id=1156219369]
 texture_filter = 1
-position = Vector2(576, 323)
-scale = Vector2(3.6, 3.6)
-texture = ExtResource("1_03mvh")
+position = Vector2(582, 319)
+scale = Vector2(0.60625, 0.61296296)
+texture = ExtResource("2_m6kt3")
 
 [node name="fundo2" type="Sprite2D" parent="." unique_id=92021903]
 texture_filter = 1
-position = Vector2(1728, 323)
-scale = Vector2(3.6, 3.6)
-texture = ExtResource("1_03mvh")
+position = Vector2(1729, 317)
+scale = Vector2(0.60937494, 0.6148148)
+texture = ExtResource("2_m6kt3")
+
+[node name="fundo" type="AnimatedSprite2D" parent="." unique_id=1269092178]
+texture_filter = 1
+position = Vector2(573, 268)
+scale = Vector2(1.2, 1.2)
+sprite_frames = SubResource("SpriteFrames_ea472")
+animation = &"fonte_anim"
+frame_progress = 0.5379559
 
 [node name="cenario-M" type="Sprite2D" parent="." unique_id=516596320]
 texture_filter = 1
-position = Vector2(580, 323)
-scale = Vector2(3.6249998, 3.6)
-texture = ExtResource("3_ovbra")
+position = Vector2(574, 525)
+scale = Vector2(1.7996871, 2.0437686)
+texture = ExtResource("11_uoep5")
 
 [node name="cenario-M2" type="Sprite2D" parent="." unique_id=647701332]
 texture_filter = 1
-position = Vector2(1732, 323)
-scale = Vector2(3.6249998, 3.6)
-texture = ExtResource("3_ovbra")
+position = Vector2(1735, 523.5)
+scale = Vector2(1.8215959, 2.061828)
+texture = ExtResource("11_uoep5")
 
 [node name="cenario-F" type="Sprite2D" parent="." unique_id=1914159513]
 texture_filter = 1
-position = Vector2(576, 323)
-scale = Vector2(3.6, 3.6)
-texture = ExtResource("4_reiul")
+position = Vector2(577.49994, 380)
+scale = Vector2(1.157, 2.2253523)
+texture = ExtResource("3_m6kt3")
 
 [node name="cenario-F2" type="Sprite2D" parent="." unique_id=363974210]
 texture_filter = 1
-position = Vector2(1728, 323)
-scale = Vector2(3.6, 3.6)
-texture = ExtResource("4_reiul")
+position = Vector2(1735.5, 380.80002)
+scale = Vector2(1.167, 2.2225351)
+texture = ExtResource("3_m6kt3")
 
 [node name="chao" type="Sprite2D" parent="." unique_id=1528186609]
 texture_filter = 1
-position = Vector2(1732, 592)
-scale = Vector2(3.6249998, 3.6)
-texture = ExtResource("2_45s2r")
+position = Vector2(1747.4999, 575.5)
+scale = Vector2(8.249998, 1.5785717)
+texture = ExtResource("13_1swbg")
 
-[node name="chao2" type="Sprite2D" parent="." unique_id=143264489]
+[node name="chao2" type="Sprite2D" parent="." unique_id=329060684]
 texture_filter = 1
-position = Vector2(579.99994, 592)
-scale = Vector2(3.6249993, 3.6)
-texture = ExtResource("2_45s2r")
+position = Vector2(589, 576)
+scale = Vector2(8.414285, 1.5857142)
+texture = ExtResource("13_1swbg")
 
 [node name="chao_fisico" type="StaticBody2D" parent="." unique_id=2131928588]
 
@@ -136,17 +244,19 @@ position = Vector2(583.75, 591.5)
 shape = SubResource("RectangleShape2D_xmmbr")
 
 [node name="player" type="CharacterBody2D" parent="." unique_id=1250424394]
+collision_layer = 3
 script = ExtResource("6_xmmbr")
 
 [node name="player_anim" type="AnimatedSprite2D" parent="player" unique_id=1317513326]
 texture_filter = 1
-position = Vector2(248.00002, 504.00003)
+position = Vector2(240, 474)
 scale = Vector2(3.6, 3.6)
 sprite_frames = SubResource("SpriteFrames_3pkuu")
-animation = &"pulo"
+animation = &"kris_caindo"
+frame_progress = 0.66930956
 
 [node name="player_hitbox" type="CollisionShape2D" parent="player" unique_id=764103806]
-position = Vector2(248, 492)
+position = Vector2(239, 474.5)
 shape = SubResource("RectangleShape2D_p2wm8")
 
 [node name="gerador_obst" type="Node2D" parent="." unique_id=395566532]
@@ -155,12 +265,19 @@ script = ExtResource("8_p2wm8")
 [node name="gerador_item" type="Node2D" parent="." unique_id=744121040]
 script = ExtResource("9_r4inx")
 
-[node name="status" type="HBoxContainer" parent="." unique_id=265610128]
-offset_right = 40.0
-offset_bottom = 40.0
+[node name="status" type="HBoxContainer" parent="." unique_id=1220420063]
+offset_right = 196.0
+offset_bottom = 72.0
+size_flags_stretch_ratio = 0.0
+theme_override_constants/separation = 30
+alignment = 1
 
-[node name="vidas" type="Label" parent="status" unique_id=1082922548]
+[node name="vidas" type="Label" parent="status" unique_id=153288384]
 layout_mode = 2
+theme_override_fonts/font = ExtResource("29_uoep5")
+theme_override_font_sizes/font_size = 30
 
-[node name="pontos" type="Label" parent="status" unique_id=1740006048]
+[node name="pontos" type="Label" parent="status" unique_id=407805420]
 layout_mode = 2
+theme_override_fonts/font = ExtResource("29_uoep5")
+theme_override_font_sizes/font_size = 30

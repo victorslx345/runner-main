@@ -13,6 +13,6 @@ func _process(delta: float) -> void:
 	if timer >= 4:
 		var obst=cena_obst.instantiate()
 		obst.position.x = 1240
-		obst.position.y = 505
+		obst.position.y = 490
 		add_child(obst)
 		timer = 0

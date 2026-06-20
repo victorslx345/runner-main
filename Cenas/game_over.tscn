@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://dnf2mupxti4rv"]
+
+[ext_resource type="Texture2D" uid="uid://ckae58cnldsr2" path="res://Recursos/Faint_Courage_(Game_Over).png" id="1_7y2ld"]
+[ext_resource type="Script" uid="uid://5cleyopxvp2f" path="res://scripts/game_over.gd" id="1_glpug"]
+[ext_resource type="FontFile" uid="uid://ced5twfkjn2ej" path="res://Recursos/determination.ttf" id="2_glpug"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vpsjw"]
+texture = ExtResource("1_7y2ld")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m7y8o"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_o6hi5"]
+bg_color = Color(0.6, 0.6, 0.6, 0.74509805)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qmc8d"]
+bg_color = Color(0.6, 0.6, 0.6, 0.5058824)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7y2ld"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[node name="game_over" type="Control" unique_id=775508053]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_glpug")
+
+[node name="fundo" type="Panel" parent="." unique_id=330768597]
+layout_mode = 1
+offset_left = 1.0
+offset_top = -61.0
+offset_right = 1161.0
+offset_bottom = 948.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_vpsjw")
+
+[node name="botoes" type="HBoxContainer" parent="." unique_id=1424739933]
+texture_filter = 2
+layout_mode = 0
+offset_left = 241.0
+offset_top = 448.0
+offset_right = 969.0
+offset_bottom = 523.0
+theme_override_constants/separation = 100
+
+[node name="continue" type="Button" parent="botoes" unique_id=1835993707]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_glpug")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_m7y8o")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_o6hi5")
+theme_override_styles/hover = SubResource("StyleBoxFlat_qmc8d")
+text = "CONTINUAR
+"
+
+[node name="sair" type="Button" parent="botoes" unique_id=754996599]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_glpug")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_7y2ld")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_o6hi5")
+theme_override_styles/hover = SubResource("StyleBoxFlat_qmc8d")
+text = "DESISTIR"
+
+[connection signal="pressed" from="botoes/continue" to="." method="_on_continue_pressed"]
+[connection signal="pressed" from="botoes/sair" to="." method="_on_sair_pressed"]

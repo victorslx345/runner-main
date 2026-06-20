@@ -34,24 +34,26 @@ grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_5n27r")
 
 [node name="Label" type="Label" parent="." unique_id=1780970329]
+texture_filter = 1
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -141.0
-offset_top = -202.0
-offset_right = 141.0
-offset_bottom = -155.0
+offset_left = -486.0
+offset_top = -303.0
+offset_right = 464.0
+offset_bottom = -50.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_constants/shadow_offset_x = 10
 theme_override_constants/shadow_offset_y = 7
 theme_override_fonts/font = ExtResource("3_fapvr")
-theme_override_font_sizes/font_size = 136
-text = "Runner"
+theme_override_font_sizes/font_size = 50
+text = "KRIS GET THE BANANA"
+vertical_alignment = 1
 
 [node name="Botoes" type="VBoxContainer" parent="." unique_id=516607153]
 layout_mode = 1
@@ -67,8 +69,10 @@ offset_bottom = 97.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 50
+alignment = 1
 
 [node name="Jogar" type="Button" parent="Botoes" unique_id=484663850]
+texture_filter = 1
 layout_mode = 2
 size_flags_horizontal = 4
 theme_override_fonts/font = ExtResource("3_fapvr")
@@ -79,6 +83,7 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_y28df")
 text = "Jogar"
 
 [node name="Sair" type="Button" parent="Botoes" unique_id=1905932207]
+texture_filter = 1
 layout_mode = 2
 theme_override_fonts/font = ExtResource("3_fapvr")
 theme_override_font_sizes/font_size = 36

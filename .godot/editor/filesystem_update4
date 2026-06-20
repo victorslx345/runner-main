@@ -1,3 +1,9 @@
+res://Cenas/game_over.tscn
+res://scripts/jogo.gd
 res://Cenas/jogo.tscn
+res://Cenas/obstaculo.tscn
+res://scripts/gerador_obst.gd
+res://scripts/obstaculo.gd
+res://scripts/game_over.gd
 res://scripts/player.gd
 res://Cenas/menu.tscn

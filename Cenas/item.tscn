@@ -1,31 +1,66 @@
 [gd_scene format=3 uid="uid://dkh38d1ipuf2b"]
 
-[ext_resource type="Texture2D" uid="uid://b1kqfm6a3tvdl" path="res://Recursos/enemies.png" id="1_jja24"]
 [ext_resource type="Script" uid="uid://mlqeng7iuuj0" path="res://scripts/item.gd" id="1_xruxt"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_xruxt"]
-atlas = ExtResource("1_jja24")
-region = Rect2(0, 0, 48, 48)
+[ext_resource type="Texture2D" uid="uid://b3vtqspm6cwa0" path="res://Recursos/PC _ Computer - Deltarune - Objects - The Banana.png" id="2_xruxt"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6f8qp"]
-atlas = ExtResource("1_jja24")
-region = Rect2(48, 0, 48, 48)
+atlas = ExtResource("2_xruxt")
+region = Rect2(1, 1, 52, 54)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4qapt"]
-atlas = ExtResource("1_jja24")
-region = Rect2(96, 0, 48, 48)
+atlas = ExtResource("2_xruxt")
+region = Rect2(55, 1, 52, 54)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3sswf"]
+atlas = ExtResource("2_xruxt")
+region = Rect2(109, 1, 52, 54)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jipqn"]
+atlas = ExtResource("2_xruxt")
+region = Rect2(163, 1, 52, 54)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lecdw"]
+atlas = ExtResource("2_xruxt")
+region = Rect2(217, 1, 52, 54)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o2l8v"]
+atlas = ExtResource("2_xruxt")
+region = Rect2(271, 1, 52, 54)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hx6u4"]
+atlas = ExtResource("2_xruxt")
+region = Rect2(325, 1, 52, 54)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3vggv"]
+atlas = ExtResource("2_xruxt")
+region = Rect2(379, 1, 52, 54)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_3sswf"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_xruxt")
-}, {
-"duration": 1.0,
 "texture": SubResource("AtlasTexture_6f8qp")
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_4qapt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3sswf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jipqn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lecdw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o2l8v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hx6u4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3vggv")
 }],
 "loop": true,
 "name": &"default",
@@ -33,20 +68,20 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jipqn"]
-size = Vector2(93.5, 50)
+size = Vector2(56, 60)
 
 [node name="item" type="Area2D" unique_id=1741711669]
 script = ExtResource("1_xruxt")
 
 [node name="iten_sprite" type="AnimatedSprite2D" parent="." unique_id=1520231810]
 texture_filter = 1
-scale = Vector2(3.6, 3.6)
+scale = Vector2(1.845, 1.845)
 sprite_frames = SubResource("SpriteFrames_3sswf")
 autoplay = "default"
-frame_progress = 0.12502575
+frame_progress = 0.77949715
 
 [node name="item_hitbox" type="CollisionShape2D" parent="." unique_id=217902116]
-position = Vector2(-0.25, 0)
+position = Vector2(-2, -1)
 shape = SubResource("RectangleShape2D_jipqn")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
